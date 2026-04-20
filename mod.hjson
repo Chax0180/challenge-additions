@@ -1,0 +1,9 @@
+name: Challenge Additions
+description: Adds a small set of blocks to make challenge maps more interesting.
+subtitle: Mixtech but not
+
+author: Chax0180
+minGameVersion: 136
+version: 0.0
+hidden: false
+hideBrowser: false
