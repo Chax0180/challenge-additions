@@ -39,9 +39,6 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawDefault
-    }
-    {
       type: DrawRegion
       suffix: -spinner1
       spinSprite: true
