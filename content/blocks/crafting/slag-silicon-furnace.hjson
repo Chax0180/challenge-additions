@@ -1,5 +1,5 @@
 type: genericCrafter
-name: SiliconSlag Furnace
+name: Slag Silicon Furnace
 description: Refines silicon from sand using slag for use in areas without coal.
 size: 3
 health: 300
