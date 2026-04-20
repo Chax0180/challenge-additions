@@ -34,6 +34,11 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: slag
+    }
+    {
       type: DrawParticles
       color: ff8142
       alpha: 0.7
