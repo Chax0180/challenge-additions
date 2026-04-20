@@ -30,11 +30,12 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawDefault
+      type: DrawRegion
+      suffix: -bottom
     }
     {
       type: DrawParticles
-      color: ffffff
+      color: ff8142
       alpha: 0.7
       particleSize: 2
       particles: 15
@@ -42,8 +43,7 @@ drawer: {
       particleLife: 60
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawDefault
     }
   ]
 }
