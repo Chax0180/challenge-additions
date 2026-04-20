@@ -1,0 +1,65 @@
+type: GenericCrafter
+
+name: Heavy Water Extractor
+
+description: Extracts groundwater at a faster rate. Used in locations with no surface water available. Functions properly regardless of the ground below.
+
+health: 900
+size: 3
+
+hasPower: true
+
+requirements: [
+  copper/150
+  lead/90
+  silicon/50
+  graphite/90
+  thorium/115
+  plastanium/50
+]
+
+consumes: {
+  power: 3
+  }
+outputLiquid: water/0.8
+
+liquidCapacity: 80
+category: production
+research: oil-extractor
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner1
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner2
+      spinSprite: true
+      rotateSpeed: -3
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 0.25
+squareSprite: false
+
