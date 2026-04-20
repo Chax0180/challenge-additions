@@ -40,7 +40,7 @@ drawer: {
     }
     {
       type: DrawParticles
-      color: ff8142
+      color: 767a84
       alpha: 0.7
       particleSize: 2
       particles: 15
