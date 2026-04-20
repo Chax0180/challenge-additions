@@ -1,2 +1,10 @@
 type: genericCrafter
-name: Silicon Induction Furnace
+name: Silicon Arc Furnace
+description: Refines silicon from sand and graphite, at the cost of a large  amount of power.
+consumes:[
+power: 6
+items:{
+sand/6
+graphite/40
+}
+]
