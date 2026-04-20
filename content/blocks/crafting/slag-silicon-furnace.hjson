@@ -3,6 +3,7 @@ name: Slag Silicon Furnace
 description: Refines silicon from sand using slag for use in areas without coal.
 size: 3
 health: 300
+itemCapacity: 20
 
 outputItem: silicon/4
 consumes: {
@@ -25,3 +26,26 @@ graphite/60
 titanium/30
 silicon/20
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: ffffff
+      alpha: 0.7
+      particleSize: 2
+      particles: 15
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: loopHum
+ambientSoundVolume: 0.08
