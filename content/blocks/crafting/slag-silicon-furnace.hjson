@@ -1,0 +1,27 @@
+type: genericCrafter
+name: Silicon Induction Furnace
+description: Refines silicon from sand using slag.
+size: 3
+health: 300
+
+outputItem: silicon/4
+consumes: {
+  items: [
+  sand/6
+  ]
+  liquids:[
+  slag/0.13333
+  ]
+power: 1.8
+}
+craftEffect: smeltsmoke
+craftTime: 50
+
+research: silicon-crucible
+
+requirements:[
+lead/80
+graphite/60
+titanium/30
+silicon/20
+]
