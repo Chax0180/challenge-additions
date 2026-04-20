@@ -1,6 +1,6 @@
 type: GenericCrafter
 
-name: Heavy Water Extractor
+name: Large Water Extractor
 
 description: Extracts groundwater at a faster rate. Used in locations with no surface water available. Functions properly regardless of the ground below.
 
@@ -21,7 +21,7 @@ requirements: [
 consumes: {
   power: 3
   }
-outputLiquid: water/0.8
+outputLiquid: water/1
 
 liquidCapacity: 80
 category: production
