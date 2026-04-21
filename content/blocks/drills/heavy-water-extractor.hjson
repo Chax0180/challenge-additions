@@ -4,7 +4,7 @@ name: Large Water Extractor
 
 description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
 attribute: water
-boostScale: 0.01111111111
+boostScale: 0.1111111111111111111111
 
 health: 900
 size: 3
