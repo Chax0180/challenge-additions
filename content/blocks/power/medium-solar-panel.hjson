@@ -5,8 +5,8 @@ size: 2
 health: 280
 powerProduction: 0.53333333333333333333
 research: solar-panel
-requirements:{
+requirements:[
 lead/30
 silicon/30
 plastanium/10
-}
+]
