@@ -2,4 +2,5 @@ type: solarGenerator
 name: Medium Solar Panel
 description: Provides a small amount of power from the sun. More efficient than the standard solar panel.
 size: 2
+health: 280
 powerProduction: 0.53333333333333333333
