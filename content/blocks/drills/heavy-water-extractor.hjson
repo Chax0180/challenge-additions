@@ -1,8 +1,9 @@
-type: GenericCrafter
+type: AttributeCrafter
 
 name: Large Water Extractor
 
-description: Extracts groundwater at a faster rate. Used in locations with no surface water available. Functions properly regardless of the ground below.
+description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+attribute: water
 
 health: 900
 size: 3
@@ -51,8 +52,7 @@ drawer: {
       rotateSpeed: -3
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawDefault
     }
   ]
 }
