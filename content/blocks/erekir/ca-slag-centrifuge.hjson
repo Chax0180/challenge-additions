@@ -1,0 +1,54 @@
+name: Slag Centrifuge
+type: separator
+description: Separates slag into trace minerals.
+size: 3
+health: 935
+squareSprite: false
+hasLiquids: true
+results:[
+sand/4
+silicon/3
+beryllium/2
+tungsten/1
+]
+consumes: {
+liquid: slag/0.66666666666666666666666
+}
+
+craftTime: 45
+category: crafting
+research: reinforced-pump
+
+requirements: [
+beryllium/60
+silicon/80
+tungsten/40
+surge-alloy/25
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -buttonthing
+      spinSprite: true
+      rotateSpeed: -4
+    }
+  ]
+}
+ambientSound: loopCutter
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.2
