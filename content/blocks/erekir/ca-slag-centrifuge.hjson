@@ -35,7 +35,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      padding: 1
+      padding: 1.1
     }
     {
       type: DrawRegion
@@ -54,6 +54,3 @@ drawer: {
     }
   ]
 }
-ambientSound: loopCutter
-ambientSoundVolume: 0.08
-researchCostMultiplier: 0.2
