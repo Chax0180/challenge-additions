@@ -33,6 +33,12 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+     drawLiquid: slag
+      alpha: 0.65
+      padding: 2.5
+    }
+    {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
