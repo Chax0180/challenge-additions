@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+name: Hydrogen Engine
+description: Generates power from hydrogen.
+size: 3
+category: power
+research: {
+  parent: electrolyzer
+  objectives: [
+    {
+      type: OnSector
+      preset: caldera-erekir
+    }
+  ]
+}
+requirements: [
+  graphite/60
+  silicon/20
+  tungsten//40
+  oxide/20
+]
+consumes: {
+  liquid: hydrogen/0.1
+}
+hasLiquids: true
+liquidCapacity: 30
+powerProduction: 5
+  
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.08
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawPistons
+      suffix: -piston
+      sinMag: 2
+      sinScl: 6
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
