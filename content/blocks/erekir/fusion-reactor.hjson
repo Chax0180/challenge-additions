@@ -1,21 +1,27 @@
 type: HeatProducer
 name: Fusion Reactor
-description: Generates massive amounts of heat using hydrogen and power.
-size: 7
+description: Generates massive amounts of heat using hydrogen and power. Requires a significant amount of time to heat up.
+size: 9
+scaledHealth: 550
+
 category: power
 research: flux-reactor
 requirements: [
-  graphite/60
-  silicon/20
-  tungsten/40
-  oxide/20
+  graphite/2200
+  silicon/1200
+  phase-fabric/200
+  surge-alloy/600
+  beryllium/1200
+  carbide/500
 ]
 consumes: {
-  liquid: hydrogen/1
+  liquid: hydrogen/2
+  power: 30
 }
+
 hasLiquids: true
-liquidCapacity: 1800
-heatOutput: 450
+liquidCapacity: 800
+heatOutput: 600
 warmupRate: 0.05
 
   
