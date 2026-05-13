@@ -1,7 +1,7 @@
 type: HeatProducer
 name: Fusion Reactor
 description: Generates extremely massive amounts of heat using hydrogen and power. Requires a significant amount of time to heat up.
-size: 9
+size: 7
 scaledHealth: 60
 
 category: power
