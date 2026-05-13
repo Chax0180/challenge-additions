@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Hydrogen Engine
-description: Generates power from hydrogen.
+description: Generates power by burning hydrogen.
 size: 3
 category: power
 research: {
