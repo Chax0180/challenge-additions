@@ -34,11 +34,17 @@ drawer: {
     {
       type: DrawPistons
       suffix: -piston
-      sinMag: 3
-      sinScl: 8
+      sinMag: 2
+      sinScl: 6
     }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      blending: additive
+      color: 8ca9e8
     }
   ]
 }
