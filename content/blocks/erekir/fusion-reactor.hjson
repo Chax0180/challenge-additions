@@ -23,7 +23,7 @@ consumes: {
 hasLiquids: true
 liquidCapacity: 800
 heatOutput: 600
-warmupRate: 0.075
+warmupRate: 0.25
 
   
 ambientSound: loopThoriumReactor
