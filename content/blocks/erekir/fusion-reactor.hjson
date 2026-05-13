@@ -1,0 +1,38 @@
+type: HeatProducer
+name: Fusion Reactor
+description: Generates massive amounts of heat using hydrogen and power.
+size: 7
+category: power
+research: flux-reactor
+requirements: [
+  graphite/60
+  silicon/20
+  tungsten/40
+  oxide/20
+]
+consumes: {
+  liquid: hydrogen/1
+}
+hasLiquids: true
+liquidCapacity: 1800
+heatOutput: 450
+warmupRate: 0.05
+
+  
+ambientSound: loopThoriumReactor
+ambientSoundVolume: 0.6
+
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 8ca9e81a
+    }
+  ]
+}
