@@ -15,7 +15,7 @@ research: {
 requirements: [
   graphite/60
   silicon/20
-  tungsten//40
+  tungsten/40
   oxide/20
 ]
 consumes: {
