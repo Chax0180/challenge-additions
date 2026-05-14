@@ -45,7 +45,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: middle
+      suffix: -middle
     }
     {
       type: DrawSoftParticles
