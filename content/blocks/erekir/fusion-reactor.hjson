@@ -48,7 +48,7 @@ drawer: {
       color: 6569c9
       color2: d1efff
       rotateScl: 1
-      particleInterp: 2
+      particleInterp: circleOut
       reverse: true
     }
     {
