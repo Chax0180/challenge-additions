@@ -47,7 +47,7 @@ drawer: {
       alpha: 0.6
       color: 6569c9
       color2: d1efff
-      rotateScl: 15
+      rotateScl: 1
     }
     {
       type: DrawDefault
