@@ -39,7 +39,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: hydrogen
+      drawLiquid: hydrogen
       padding: 3
       alpha: 0.8
     }
