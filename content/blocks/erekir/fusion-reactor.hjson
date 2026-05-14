@@ -45,9 +45,9 @@ drawer: {
       particleLife: 120
       particles: 40
       alpha: 0.6
-      color1: 6569c9
+      color: 6569c9
       color2: d1efff
-      rotateScl: 5
+      rotateScl: 15
     }
     {
       type: DrawDefault
