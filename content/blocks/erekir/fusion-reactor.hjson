@@ -53,7 +53,7 @@ drawer: {
       particleRad: 8
       particleSize: 10
       particleLife: 90
-      particles: 30
+      particles: 10
       alpha: 0.6
       color2: 6569c9
       color: d1efff
