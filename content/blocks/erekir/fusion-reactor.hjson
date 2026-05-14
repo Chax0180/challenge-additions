@@ -42,7 +42,7 @@ drawer: {
       alpha: 0.35
       particleRad: 24
       particleSize: 11
-      particleLife: 60
+      particleLife: 90
       particles: 80
       alpha: 0.6
       color: 6569c9
