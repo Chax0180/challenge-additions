@@ -38,12 +38,15 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawDefault
+      type: DrawSoftParticles
+      alpha: 0.35
+      particleRad: 12
+      particleSize: 9
+      particleLife: 120
+      particles: 27
     }
     {
-      type: DrawGlowRegion
-      suffix: -glow
-      color: 8ca9e81a
+      type: DrawDefault
     }
   ]
 }
