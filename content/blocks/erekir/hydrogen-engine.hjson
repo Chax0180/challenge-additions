@@ -19,11 +19,11 @@ requirements: [
   oxide/20
 ]
 consumes: {
-  liquid: hydrogen/0.1
+  liquid: hydrogen/0.066666666666666666666666666666
 }
 hasLiquids: true
 liquidCapacity: 30
-powerProduction: 5
+powerProduction: 12
   
 ambientSound: loopMachineSpin
 ambientSoundVolume: 0.08
@@ -34,7 +34,7 @@ drawer: {
     {
       type: DrawPistons
       suffix: -piston
-      sinMag: 2
+      sinMag: 4
       sinScl: 6
     }
     {
