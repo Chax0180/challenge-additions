@@ -40,10 +40,14 @@ drawer: {
     {
       type: DrawSoftParticles
       alpha: 0.35
-      particleRad: 12
-      particleSize: 9
+      particleRad: 30
+      particleSize: 11
       particleLife: 120
-      particles: 27
+      particles: 40
+      alpha: 0.6
+      color1: 6569c9
+      color2: d1efff
+      rotateScl: 5
     }
     {
       type: DrawDefault
