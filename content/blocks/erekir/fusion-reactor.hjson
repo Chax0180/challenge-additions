@@ -40,7 +40,7 @@ drawer: {
     {
       type: DrawSoftParticles
       alpha: 0.35
-      particleRad: 24
+      particleRad: -24
       particleSize: 11
       particleLife: 120
       particles: 80
