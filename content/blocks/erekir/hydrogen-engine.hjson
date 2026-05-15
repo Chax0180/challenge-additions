@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-name: Hydrogen Reactor
+name: Hydrogen Fusor
 description: Generates power by fusing hydrogen at a very small scale.
 details: The fusion process outputs more energy than simply combusting hydrogen and oxygen, which would have no net gain if both were obtained from water. The same problem occurs when attempting to obtain hydrogen from the resulting helium via fission.
 size: 3
