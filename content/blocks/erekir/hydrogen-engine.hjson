@@ -1,6 +1,7 @@
 type: ConsumeGenerator
-name: Hydrogen Engine
-description: Generates power by burning hydrogen.
+name: Hydrogen Reactor
+description: Generates power by fusing hydrogen.
+details: The fusion process outputs more energy than simply combusting hydrogen and oxygen, which would have no net gain if both were obtained from water. The same problem occurs when attempting to obtain hydrogen from the resulting helium via fission.
 size: 3
 category: power
 research: {
@@ -13,11 +14,10 @@ research: {
   ]
 }
 requirements: [
-  graphite/60
+  graphite/120
   silicon/20
-  tungsten/40
+  tungsten/80
   oxide/20
-  
 ]
 consumes: {
   liquid: hydrogen/0.066666666666666666666666666666
@@ -27,7 +27,7 @@ liquidCapacity: 30
 powerProduction: 12
   
 ambientSound: loopMachineSpin
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.18
 squareSprite: false
 drawer: {
   type: DrawMulti
