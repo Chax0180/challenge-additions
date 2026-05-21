@@ -1,6 +1,6 @@
 type: Pump
 name: Pnuematic Pump
-description: Pumps liquids from liquid tiles. Requires cyanogen to function.
+description: Pumps and outputs liquids. Requires cyanogen.
 size: 3
 category: liquid
 squareSprite: false
