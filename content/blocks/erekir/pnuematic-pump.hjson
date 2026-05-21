@@ -1,0 +1,20 @@
+type: Pump
+name: Pnuematic Pump
+description: Pumps liquids from liquid tiles. Requires cyanogen to function.
+size: 3
+category: liquid
+squareSprite: false
+research: {
+parent: reinforced-pump
+onSector: siege
+}
+requirements: [
+carbide/40
+beryllium/100
+tungsten/120
+silicon/80
+]
+pumpAmount: 5.3333333333333333333333333
+consumes: {
+  liquid: cyanogen/0.033333333333333333333333
+}
