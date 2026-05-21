@@ -14,7 +14,7 @@ beryllium/100
 tungsten/120
 silicon/80
 ]
-pumpAmount: 5.3333333333333333333333333
+pumpAmount: 0.592592592592592592592592
 consumes: {
   liquid: cyanogen/0.033333333333333333333333
 }
