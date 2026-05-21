@@ -18,7 +18,6 @@ power: 2
 
 craftTime: 45
 category: crafting
-research: surge-crucible
 
 requirements: [
 beryllium/60
@@ -55,3 +54,4 @@ drawer: {
     }
   ]
 }
+buildVisibility:sandboxOnly
