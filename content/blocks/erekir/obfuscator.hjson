@@ -1,0 +1,13 @@
+type: Wall
+  name: Obfuscator
+description: Blocks automatic beam power connections.
+insulated: true
+  health: 150
+  requirements: [
+silicon/10
+beryllium/5
+tungsten/5
+  ]
+category:power
+size:1
+research: beam-node
