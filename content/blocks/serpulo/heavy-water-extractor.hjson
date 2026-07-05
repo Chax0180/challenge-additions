@@ -1,9 +1,16 @@
-type: SolidPump
+type: AttributeCrafter
 
 name: Large Water Extractor
 
 description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+attribute: water
+boostScale: 0.1111111111111111111111
+minEfficiency: 0
+
+health: 900
 size: 3
+
+hasPower: true
 
 requirements: [
   copper/150
@@ -17,20 +24,40 @@ requirements: [
 consumes: {
   power: 3
   }
-
-warmupSpeed: 0.005
-pumpAmount: 1
-
-result: water
-rotatespeed: 2
-attribute: water
-liquidCapacity: 60
+outputLiquid: water/1
 
 liquidCapacity: 80
 category: production
 research: oil-extractor
-
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner1
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner2
+      spinSprite: true
+      rotateSpeed: -3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 ambientSound: drill
 ambientSoundVolume: 0.25
 squareSprite: false
-
