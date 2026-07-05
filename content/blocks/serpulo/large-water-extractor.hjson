@@ -23,7 +23,8 @@ consumes: {
   power: 3
   }
 
-result: water/1
+result: water
+pumpAmount: 1
 
 liquidCapacity: 80
 category: production
