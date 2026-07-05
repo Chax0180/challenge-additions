@@ -3,6 +3,7 @@ type: SolidPump
 name: Large Water Extractor
 
 description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+size: 3
 
 requirements: [
   copper/150
@@ -18,10 +19,11 @@ consumes: {
   }
 
 warmupSpeed: 0.005
-pumpAmount: 6.666666666666666
+pumpAmount: 0.111111111111111111111
 result: water
 rotatespeed: 2
 attribute: water
+liquidCapacity: 60
 
 liquidCapacity: 80
 category: production
