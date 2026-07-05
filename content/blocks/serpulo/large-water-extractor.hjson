@@ -1,0 +1,64 @@
+type: solidPump
+
+name: Test Water Extractor
+
+description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+attribute: water
+
+health: 900
+size: 3
+
+hasPower: true
+
+requirements: [
+  copper/150
+  lead/90
+  silicon/50
+  graphite/90
+  thorium/115
+  plastanium/50
+]
+
+consumes: {
+  power: 3
+  }
+
+result: water/1
+
+liquidCapacity: 80
+category: production
+research: oil-extractor
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      name: heavy-water-extractor-bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      name: heavy-water-extractor-spinner1
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    {
+      type: DrawRegion
+      name: heavy-water-extractor-spinner2
+      spinSprite: true
+      rotateSpeed: -3
+    }
+    {
+      type: DrawRegion
+      name: heavy-water-extractor
+    }
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 0.25
+squareSprite: false
