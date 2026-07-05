@@ -25,41 +25,12 @@ consumes: {
 
 result: water
 pumpAmount: 1
+rotateSpeed: 2
 
 liquidCapacity: 80
 category: production
 research: oil-extractor
 
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      name: heavy-water-extractor-bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: water
-      padding: 3
-    }
-    {
-      type: DrawRegion
-      name: heavy-water-extractor-spinner1
-      spinSprite: true
-      rotateSpeed: 3
-    }
-    {
-      type: DrawRegion
-      name: heavy-water-extractor-spinner2
-      spinSprite: true
-      rotateSpeed: -3
-    }
-    {
-      type: DrawRegion
-      name: heavy-water-extractor
-    }
-  ]
-}
 ambientSound: drill
 ambientSoundVolume: 0.25
 squareSprite: false
