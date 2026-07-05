@@ -1,6 +1,6 @@
 type: solidPump
 
-name: Test Water Extractor
+name: Large Water Extractor
 
 description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
 attribute: water
