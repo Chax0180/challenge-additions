@@ -19,7 +19,8 @@ consumes: {
   }
 
 warmupSpeed: 0.005
-pumpAmount: 0.111111111111111111111
+pumpAmount: 1
+
 result: water
 rotatespeed: 2
 attribute: water
