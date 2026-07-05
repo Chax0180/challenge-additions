@@ -39,7 +39,7 @@ drawer: {
       drawLiquid: slag
     }
     {
-      type: DrawParticles
+      type: DrawSoftParticles
       color: 767a84
       alpha: 0.7
       particleSize: 2
