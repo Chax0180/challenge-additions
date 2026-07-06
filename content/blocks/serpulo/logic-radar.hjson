@@ -1,0 +1,30 @@
+type: PowerTurret
+name: Logic Radar
+description: Capable of locating enemy units over a large area for use with logic systems. Automatically faces closest targets.
+
+size: 3
+health: 810
+
+requirements: [
+lead/240
+graphite/80
+thorium/75
+silicon/120
+plastanium/30
+]
+
+range: 650
+fogRadiusMultiplier: 0.35
+  
+playerControllable: false
+  predictTarget: false
+
+research: {
+  parent: logic-processor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: tar-fields
+    }
+  ]
+}
