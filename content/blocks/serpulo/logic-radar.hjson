@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Logic Radar
-description: Capable of locating enemy units over a large area for use with logic systems. Automatically faces closest targets.
+description: Capable of locating enemy units over a large area for use with logic systems. Automatically faces targets with the highest maximum health.
 
 size: 3
 health: 810
@@ -14,8 +14,9 @@ plastanium/30
 ]
 category: logic
 
-range: 650
-fogRadiusMultiplier: 0.35
+range: 1250
+fogRadiusMultiplier: 0.25
+unitSort: maxHealth
   
 playerControllable: false
   predictTarget: false
