@@ -24,7 +24,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: tar-fields
+      preset: tarFields
     }
   ]
 }
