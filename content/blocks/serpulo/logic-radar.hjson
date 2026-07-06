@@ -35,11 +35,11 @@ reload: 60
 recoil: 0
 
 shootSound: healWave
-despawnSound: shoot
 shootType: {
   type: PointLaserBulletType
   damage: 0
   instantDisappear: true
+  collides: false
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
