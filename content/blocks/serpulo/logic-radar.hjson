@@ -28,3 +28,22 @@ research: {
     }
   ]
 }
+
+reload: 60
+shootType: {
+  instantDisappear: true
+  damage: 0
+  splashDamage: 0
+  splashDamageRadius: 0
+  despawnEffect: none
+  hitEffect: none
+  shootEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 6
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: bf92f9
+    colorTo: 665c9f
+  }
+}
