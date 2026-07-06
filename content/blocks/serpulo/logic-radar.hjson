@@ -45,7 +45,7 @@ shootType: {
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 24
+    sizeTo: 16
     lifetime: 30
     strokeFrom: 2
     strokeTo: 0
@@ -55,7 +55,7 @@ shootType: {
 beamEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 24
+    sizeTo: 64
     lifetime: 30
     strokeFrom: 2
     strokeTo: 0
