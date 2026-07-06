@@ -39,7 +39,7 @@ hitSound: healWave
 shootType: {
   type: PointLaserBulletType
   damage: 0
-  color: bf92f933
+  instantDisappear: true
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
