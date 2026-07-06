@@ -12,6 +12,7 @@ thorium/75
 silicon/120
 plastanium/30
 ]
+category: logic
 
 range: 650
 fogRadiusMultiplier: 0.35
@@ -29,7 +30,8 @@ research: {
   ]
 }
 
-reload: 60
+reload: 120
+shootSound: healWave
 shootType: {
   instantDisappear: true
   damage: 0
@@ -37,10 +39,12 @@ shootType: {
   splashDamageRadius: 0
   despawnEffect: none
   hitEffect: none
+  smokeEffect: none
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 6
+    sizeTo: 32
+    lifetime: 30
     strokeFrom: 2
     strokeTo: 0
     colorFrom: bf92f9
