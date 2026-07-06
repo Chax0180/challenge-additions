@@ -16,7 +16,7 @@ category: logic
 
 range: 1250
 fogRadiusMultiplier: 0.25
-unitSort: maxHealth
+unitSort: strongest
   
 playerControllable: false
   predictTarget: false
@@ -36,14 +36,24 @@ recoil: 0
 
 shootSound: healWave
 shootType: {
+  type: PointLaserBulletType
+  speed:
   instantDisappear: true
   damage: 0
-  splashDamage: 0
-  splashDamageRadius: 0
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
   shootEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 24
+    lifetime: 30
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: bf92f9
+    colorTo: 665c9f
+  }
+beamEffect: {
     type: WaveEffect
     sizeFrom: 0
     sizeTo: 24
