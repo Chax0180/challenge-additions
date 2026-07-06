@@ -37,7 +37,6 @@ recoil: 0
 shootSound: healWave
 shootType: {
   type: PointLaserBulletType
-  speed:
   instantDisappear: true
   damage: 0
   despawnEffect: none
