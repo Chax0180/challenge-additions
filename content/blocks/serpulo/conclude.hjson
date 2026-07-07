@@ -13,7 +13,7 @@ silicon/120
 plastanium/30
 phase-fabric/60
 ]
-category: defense
+category: turret
 
 range: 600
 fogRadiusMultiplier: 0.5
@@ -48,6 +48,7 @@ ammotypes:{
   phase-fabric:{
   type: PointLaserBulletType
   damage: 0
+  lifetime:5
   status: unmoving
   statusDuration: 300
   despawnEffect: none
