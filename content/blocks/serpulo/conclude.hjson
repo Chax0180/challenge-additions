@@ -44,12 +44,40 @@ maxAmmo: 5
 targetBlocks: false
 
 shootSound: shootBeamPlasma
+shootEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 16
+    sides: 4
+    lifetime: 30
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
+    {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 16
+    sides: 4
+    lifetime: 30
+    rotation: 45
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
+    ]
+  }
 ammoTypes:{
   phase-fabric:{
   type: PointLaserBulletType
   damage: 0
   lifetime: 30
-  beamEffectInterval: 29
+  beamEffectInterval: 60
   status: unmoving
   statusDuration: 300
   despawnEffect: none
