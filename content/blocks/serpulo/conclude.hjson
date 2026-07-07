@@ -93,7 +93,7 @@ beamEffect: {
     sizeFrom: 64
     sizeTo: 0
     sides: 4
-    lifetime: 30
+    lifetime: 15
     strokeFrom: 2
     strokeTo: 0
     colorFrom: fff3d6
@@ -104,7 +104,7 @@ beamEffect: {
     sizeFrom: 64
     sizeTo: 0
     sides: 4
-    lifetime: 30
+    lifetime: 15
     rotation: 45
     strokeFrom: 2
     strokeTo: 0
