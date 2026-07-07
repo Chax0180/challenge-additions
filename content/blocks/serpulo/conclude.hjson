@@ -78,7 +78,7 @@ ammoTypes:{
   damage: 0
   lifetime: 30
   beamEffectInterval: 30
-  status: unmoving
+  status: disabled
   statusDuration: 300
   despawnEffect: none
   hitEffect: none
@@ -88,8 +88,8 @@ beamEffect: {
     effects: [
     {
     type: WaveEffect
-    sizeFrom: 0
-    sizeTo: 64
+    sizeFrom: 64
+    sizeTo: 0
     sides: 4
     lifetime: 30
     strokeFrom: 2
@@ -99,8 +99,8 @@ beamEffect: {
     }
     {
     type: WaveEffect
-    sizeFrom: 0
-    sizeTo: 64
+    sizeFrom: 64
+    sizeTo: 0
     sides: 4
     lifetime: 30
     rotation: 45
