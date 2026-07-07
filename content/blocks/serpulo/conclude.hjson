@@ -13,7 +13,7 @@ silicon/120
 plastanium/30
 phase-fabric/60
 ]
-category: logic
+category: turrets
 
 range: 600
 fogRadiusMultiplier: 0.5
@@ -38,13 +38,18 @@ heatColor: ffd59eff
 consumes: {
   power: 35
 }
+hasItems: true
+itemCapacity: 30
+maxAmmo: 5
+targetBlocks: false
 
 shootSound: shootBeamPlasma
 ammotypes:{
   phase-fabric:{
   type: PointLaserBulletType
   damage: 0
-  collides: false
+  status: unmoving
+  statusDuration: 300
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
