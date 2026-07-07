@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Conclude
-description: Momentarily disables an enemy target. Prioritizes enemies with higher maximum health.
+description: Momentarily disables an enemy target. Prioritizes enemies with higher max health.
 
 size: 4
 health: 3650
@@ -15,9 +15,10 @@ phase-fabric/60
 ]
 category: turret
 
-range: 600
+range: 500
 fogRadiusMultiplier: 0.5
 unitSort: strongest
+canOverdrive: false
   
 playerControllable: false
   predictTarget: false
