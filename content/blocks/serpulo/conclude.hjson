@@ -77,7 +77,7 @@ ammoTypes:{
   type: PointLaserBulletType
   damage: 0
   lifetime: 30
-  beamEffectInterval: 60
+  beamEffectInterval: 30
   status: unmoving
   statusDuration: 300
   despawnEffect: none
