@@ -15,7 +15,7 @@ phase-fabric/60
 ]
 category: logic
 
-range: 1250
+range: 600
 fogRadiusMultiplier: 0.25
 unitSort: strongest
   
@@ -34,12 +34,10 @@ research: {
 
 reload: 60
 recoil: 0
-heatColor: bf92f9ff
-hasItems: false
+heatColor: ffd59eff
 consumes: {
   power: 35
 }
-canOverdrive: false
 
 shootSound: healWave
 ammotypes:{
