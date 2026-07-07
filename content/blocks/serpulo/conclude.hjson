@@ -55,7 +55,7 @@ ammoTypes:{
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
-beamEffectEffect: {
+beamEffect: {
     type: MultiEffect
     effects: [
     {
