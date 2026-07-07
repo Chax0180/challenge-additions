@@ -93,6 +93,7 @@ beamEffect: {
     sizeFrom: 64
     sizeTo: 0
     sides: 4
+    interp: circleOut
     lifetime: 30
     strokeFrom: 2
     strokeTo: 0
@@ -104,6 +105,7 @@ beamEffect: {
     sizeFrom: 64
     sizeTo: 0
     sides: 4
+    interp: circleOut
     lifetime: 30
     rotation: 45
     strokeFrom: 2
