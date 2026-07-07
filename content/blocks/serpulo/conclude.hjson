@@ -41,8 +41,9 @@ consumes: {
 }
 hasItems: true
 itemCapacity: 30
-maxAmmo: 5
+maxAmmo: 10
 targetBlocks: false
+ammoPerShot: 10
 
 shootSound: shootBeamPlasma
 shootEffect: {
