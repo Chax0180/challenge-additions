@@ -46,7 +46,6 @@ targetBlocks: false
 shootSound: shootBeamPlasma
 ammotypes:{
   phase-fabric:{
-  type: PointLaserBulletType
   damage: 0
   lifetime:5
   status: unmoving
