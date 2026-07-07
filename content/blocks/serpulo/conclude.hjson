@@ -49,24 +49,16 @@ ammoTypes:{
   type: PointLaserBulletType
   damage: 0
   lifetime: 30
-  beamEffectInterval: 60
+  beamEffectInterval: 30
   status: unmoving
   statusDuration: 300
   despawnEffect: none
   hitEffect: none
   smokeEffect: none
-  shootEffect: {
-    type: WaveEffect
-    sizeFrom: 0
-    sizeTo: 16
-    sizes: 4
-    lifetime: 30
-    strokeFrom: 2
-    strokeTo: 0
-    colorFrom: fff3d6
-    colorTo: f19583
-  }
 beamEffectEffect: {
+    type: MultiEffect
+    effects: [
+    {
     type: WaveEffect
     sizeFrom: 0
     sizeTo: 64
@@ -76,6 +68,20 @@ beamEffectEffect: {
     strokeTo: 0
     colorFrom: fff3d6
     colorTo: f19583
+    }
+    {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 64
+    sides: 4
+    lifetime: 30
+    rotation: 45
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
+    ]
   }
 }
 }
