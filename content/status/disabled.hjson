@@ -1,0 +1,18 @@
+name: Disabled
+speedMultiplier: 0
+disarm: true
+color: ffd59e
+
+effect: {
+    type: ParticleEffect
+    particles: 3
+    length: 20
+    lifetime: 20
+    interp: circleOut
+    cone: 180
+    colorFrom: fff3d6
+    colorTo: f19583
+    sizeFrom: 2
+    sizeTo: 0
+  }
+effectChance: 0.3
