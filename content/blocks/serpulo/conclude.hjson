@@ -48,7 +48,8 @@ ammoTypes:{
   phase-fabric:{
   type: PointLaserBulletType
   damage: 0
-  lifetime:5
+  lifetime: 30
+  beamEffectInterval: 60
   status: unmoving
   statusDuration: 300
   despawnEffect: none
@@ -65,7 +66,7 @@ ammoTypes:{
     colorFrom: fff3d6
     colorTo: f19583
   }
-beamEffect: {
+beamEffectEffect: {
     type: WaveEffect
     sizeFrom: 0
     sizeTo: 64
