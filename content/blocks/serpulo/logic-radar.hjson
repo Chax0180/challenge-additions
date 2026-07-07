@@ -33,6 +33,12 @@ research: {
 
 reload: 60
 recoil: 0
+heatColor: bf92f9ff
+hasItems: false
+consumes: {
+  power: 4
+}
+canOverdrive: false
 
 shootSound: healWave
 shootType: {
