@@ -44,8 +44,9 @@ maxAmmo: 5
 targetBlocks: false
 
 shootSound: shootBeamPlasma
-ammotypes:{
+ammoTypes:{
   phase-fabric:{
+  type: PointLaserBulletType
   damage: 0
   lifetime:5
   status: unmoving
