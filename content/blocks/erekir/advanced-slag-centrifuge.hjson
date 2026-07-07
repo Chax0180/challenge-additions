@@ -1,0 +1,63 @@
+name: Advanced Slag Centrifuge
+type: separator
+description: Separates slag into trace and exotic minerals at low efficiency. Can produce thorium.
+size: 4
+health: 1350
+squareSprite: false
+hasLiquids: true
+results:[
+sand/10
+silicon/6
+tungsten/4
+thorium/1
+]
+consumes: {
+liquid: slag/1.333333333333333333333333333333333
+power: 2
+}
+
+craftTime: 30
+category: crafting
+research: chad-slag-centrifuge
+
+requirements: [
+silicon/100
+tungsten/120
+surge-alloy/50
+oxide/80
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 1.1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner2
+      spinSprite: true
+      rotateSpeed: -4
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -buttonthing
+      spinSprite: true
+      rotateSpeed: -4
+    }
+  ]
+}
