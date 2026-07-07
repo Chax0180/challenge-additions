@@ -45,7 +45,7 @@ maxAmmo: 10
 targetBlocks: false
 ammoPerShot: 10
 
-shootSound: shootBeamPlasma
+shootSound: shootNavanax
 shootEffect: {
     type: MultiEffect
     effects: [
