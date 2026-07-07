@@ -1,9 +1,9 @@
 type: ItemTurret
 name: Conclude
-description: Momentarily disables enemy targets.
+description: Momentarily disables an enemy target. Prioritizes enemies with higher maximum health.
 
 size: 4
-health: 810
+health: 3650
 
 requirements: [
 lead/240
@@ -16,30 +16,30 @@ phase-fabric/60
 category: logic
 
 range: 600
-fogRadiusMultiplier: 0.25
+fogRadiusMultiplier: 0.5
 unitSort: strongest
   
 playerControllable: false
   predictTarget: false
 
 research: {
-  parent: logic-processor
+  parent: segment
   objectives: [
     {
       type: SectorComplete
-      preset: tarFields
+      preset: testingGrounds
     }
   ]
 }
 
-reload: 60
+reload: 600
 recoil: 0
 heatColor: ffd59eff
 consumes: {
   power: 35
 }
 
-shootSound: healWave
+shootSound: shootBeamPlasma
 ammotypes:{
   phase-fabric:{
   type: PointLaserBulletType
