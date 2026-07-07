@@ -1,4 +1,4 @@
-type: Turret
+type: ItemTurret
 name: Conclude
 description: Momentarily disables enemy targets.
 
@@ -42,7 +42,8 @@ consumes: {
 canOverdrive: false
 
 shootSound: healWave
-shootType: {
+ammotypes:{
+  phase-fabric:{
   type: PointLaserBulletType
   damage: 0
   collides: false
@@ -71,4 +72,5 @@ beamEffect: {
     colorFrom: fff3d6
     colorTo: f19583
   }
+}
 }
