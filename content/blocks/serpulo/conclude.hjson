@@ -74,6 +74,18 @@ shootEffect: {
     colorFrom: fff3d6
     colorTo: f19583
     }
+    {
+    type: ParticleEffect
+    sizeFrom: 0
+    sizeTo: 16
+    length: 30
+    cone: 5
+    interp: circleOut
+    sizeInterp: slope
+    lifetime: 120
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
     ]
   }
 ammoTypes:{
