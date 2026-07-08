@@ -88,11 +88,11 @@ shootEffect: {
     }
     {
     type: ParticleEffect
-    rotation: 134
+    offset: 135
     particles: 5
     sizeFrom: 5
     sizeTo: 0
-    length: 5
+    length: 16
     cone: 5
     interp: circleOut
     lifetime: 120
@@ -101,11 +101,11 @@ shootEffect: {
     }
     {
     type: ParticleEffect
-    rotation: -135
+    offset: -135
     particles: 5
     sizeFrom: 5
     sizeTo: 0
-    length: 5
+    length: -16
     cone: 5
     interp: circleOut
     lifetime: 120
