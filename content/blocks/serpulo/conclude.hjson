@@ -76,13 +76,38 @@ shootEffect: {
     }
     {
     type: ParticleEffect
-    particles: 8
-    sizeFrom: 0
-    sizeTo: 2.5
-    length: -30
+    particles: 20
+    sizeFrom: 5
+    sizeTo: 0
+    length: -32
     cone: 5
     interp: circleOut
-    sizeInterp: slope
+    lifetime: 120
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
+    {
+    type: ParticleEffect
+    rotation: 134
+    particles: 5
+    sizeFrom: 5
+    sizeTo: 0
+    length: 5
+    cone: 5
+    interp: circleOut
+    lifetime: 120
+    colorFrom: fff3d6
+    colorTo: f19583
+    }
+    {
+    type: ParticleEffect
+    rotation: -135
+    particles: 5
+    sizeFrom: 5
+    sizeTo: 0
+    length: 5
+    cone: 5
+    interp: circleOut
     lifetime: 120
     colorFrom: fff3d6
     colorTo: f19583
