@@ -12,7 +12,7 @@ effect: {
     cone: 180
     colorFrom: fff3d6
     colorTo: f19583
-    sizeFrom: 2
+    sizeFrom: 5
     sizeTo: 0
   }
 effectChance: 0.3
