@@ -93,7 +93,7 @@ beamEffect: {
     {
     type: WaveEffect
     sizeFrom: 64
-    sizeTo: 0
+    sizeTo: 16
     sides: 4
     interp: bounceOut
     lifetime: 60
@@ -105,7 +105,7 @@ beamEffect: {
     {
     type: WaveEffect
     sizeFrom: 64
-    sizeTo: 0
+    sizeTo: 16
     sides: 4
     interp: bounceOut
     lifetime: 60
