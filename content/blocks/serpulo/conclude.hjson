@@ -41,9 +41,9 @@ consumes: {
 }
 hasItems: true
 itemCapacity: 30
-maxAmmo: 10
+maxAmmo: 30
 targetBlocks: false
-ammoPerShot: 10
+ammoPerShot: 30
 
 shootSound: shootNavanax
 shootEffect: {
