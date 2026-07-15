@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Conclude
-description: Momentarily disables an enemy target, dealing no damage. Prioritizes enemies with higher max health.
+description: Momentarily disables an enemy target, dealing no damage. Prioritizes enemies with higher max health. Cannot be overdriven.
 
 size: 4
 health: 3650
