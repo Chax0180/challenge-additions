@@ -1,11 +1,12 @@
 type: consumeGenerator
 name: Micro RTG
-description: Produces a small amount of power indefinetly, for use in areas without flammables or or sunlight.
+description: Produces a small amount of power indefinetly, for use in areas without flammables or or sunlight. Cannot be overdriven.
 
 size: 1
 health: 120
 category: power
 consume: radioactive
+canOverdrive: false
 
 powerProduction: 0.5
 
