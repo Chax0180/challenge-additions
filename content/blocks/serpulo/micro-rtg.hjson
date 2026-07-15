@@ -8,7 +8,7 @@ category: power
 consume: radioactive
   
 itemDuration: -1
-powerPRoduction: 0.8
+powerProduction: 0.8
 
 consumes:{
 itemRadioactive:{
