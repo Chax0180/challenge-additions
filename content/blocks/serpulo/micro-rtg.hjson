@@ -1,13 +1,13 @@
 type: consumeGenerator
 name: Micro RTG
-description: Produces a small amount of power indefinetly without any input, for use in areas without flammables or or sunlight.
+description: Produces a small amount of power indefinetly, for use in areas without flammables or or sunlight.
 
 size: 1
 health: 120
 category: power
 consume: radioactive
   
-itemDuration: 0
+itemDuration: -1
 
 consumes:{
 itemRadioactive:{
@@ -17,8 +17,8 @@ minRadioactivity:
 }
 
 requirements:[
-lead/50
-thorium/75
+lead/10
+thorium/15
 silicon/25
 graphite/10
 ]
