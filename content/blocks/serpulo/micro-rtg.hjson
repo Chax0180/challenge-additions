@@ -1,4 +1,6 @@
 type: powerGenerator
+name: Micro RTG
+description: Produces a small amount of power indefinetly without any input, for use in areas without flammables or or sunlight.
 
 size: 1
 health: 120
@@ -12,5 +14,11 @@ conductivePower: true
 hasItems: false
 hasLiquids: false
 
+requirements:[
+lead/50
+thorium/75
+silicon/25
+graphite/10
+]
 
   
