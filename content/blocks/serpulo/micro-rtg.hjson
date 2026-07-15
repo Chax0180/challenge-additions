@@ -1,0 +1,16 @@
+type: powerGenerator
+
+size: 1
+health: 120
+category: power
+  
+powerProduction: 0.8
+hasPower: true
+consumesPower: false
+outputsPower: true
+conductivePower: true
+hasItems: false
+hasLiquids: false
+
+
+  
