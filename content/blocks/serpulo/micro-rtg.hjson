@@ -10,13 +10,6 @@ consume: radioactive
 itemDuration: -1
 powerProduction: 0.8
 
-consumes:{
-itemRadioactive:{
-minRadioactivity:
-0.1
-}
-}
-
 requirements:[
 lead/10
 thorium/15
