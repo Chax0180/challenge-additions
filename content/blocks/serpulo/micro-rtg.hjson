@@ -10,7 +10,7 @@ consume: radioactive
 itemDuration: 0
 
 consumes:{
-itemRadioctive:{
+itemRadioactive:{
 minRadioactivity:
 0.1
 }
