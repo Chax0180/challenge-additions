@@ -6,12 +6,12 @@ size: 4
 health: 3650
 
 requirements: [
-lead/240
-graphite/80
-thorium/75
-silicon/120
-plastanium/30
-phase-fabric/60
+lead/1000
+graphite/500
+thorium/800
+silicon/2000
+plastanium/250
+phase-fabric/175
 ]
 category: turret
 
