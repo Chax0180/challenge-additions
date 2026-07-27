@@ -16,6 +16,8 @@ weapons: [
     shootEffect: none
     mirror: false
     reload: 120
+    x: 0
+    y: 0
     bullet: {
       type: basicBulletType
       despawnEffect: sapExplosion
