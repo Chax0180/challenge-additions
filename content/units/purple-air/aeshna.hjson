@@ -1,0 +1,35 @@
+type: flying
+name: Anax
+description: Emits an explosive pulse which slows enemy units.
+drag: 0.08
+accel: 0.09
+health: 480
+armor: 4
+speed: 2
+hitSize: 16
+flying: true
+faceTarget: false
+weapons: [
+  {
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosionDull
+    mirror: false
+    reload: 120
+
+    bullet: {
+      type: basicBulletType
+      collidesTiles: false
+      collides: false
+      hitSound: none
+      speed: 0
+      hitEffect: flakExplosion
+      splashDamageRadius: 80
+      splashDamage: 80
+
+      instantDisappear: true
+      hittable: false
+      collidesAir: true
+    }
+  }
+]
