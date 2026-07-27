@@ -13,12 +13,11 @@ weapons: [
   {
     shootCone: 180
     shootEffect: flakExplosionBig
-    shootSound: explosionDull
     mirror: false
-    reload: 40
-
+    reload: 30
     bullet: {
       type: basicBulletType
+      despawnEffect: shootBeamPlasmaSmall
       collidesTiles: false
       collides: false
       hitSound: none
