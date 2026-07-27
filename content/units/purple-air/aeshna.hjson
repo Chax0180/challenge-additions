@@ -12,12 +12,12 @@ faceTarget: false
 weapons: [
   {
     shootCone: 180
-    shootEffect: flakExplosionBig
+    shootSound: shootBeamPlasmaSmall
     mirror: false
     reload: 30
     bullet: {
       type: basicBulletType
-      despawnEffect: shootBeamPlasmaSmall
+      despawnEffect: flakExplosionBig
       collidesTiles: false
       collides: false
       hitSound: none
