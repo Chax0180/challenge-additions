@@ -20,7 +20,7 @@ weapons:[
     reload: 40
     mirror: true
     alternate: true
-    shootSound: missile
+    shootSound: shootMissilePlasmaShort
     inaccuracy: 30
     shootStatus: slow
     shoot: {
@@ -44,14 +44,10 @@ weapons:[
       trailLength: 22
       trailWidth: 2.2
       trailColor: bf92f9
-      backColor: bf92f9
+      backColor: 665c9f
       lightColor: bf92f9
       lightOpacity: 0.7
-      hitSound: explosion
-      despawnSound: explosion
       frontColor: bf92f9
-        supressionRange: 25
-         supressColor: bf92f9
         knockback: 0.5
     }
 }
@@ -62,8 +58,8 @@ type: ShieldArcAbility
 radius: 30
 angle: 365
 width: 10
-regen: 1
-max: 1500
+regen: 0.05
+max: 620
 whenShooting: false
 }
 ]
