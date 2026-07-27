@@ -4,9 +4,9 @@ description: Flies toward enemy targets and self-destructs, causing a large expl
 drag: 0.08
 accel: 0.09
 health: 110
-armor: 0.5
+armor: 1
 speed: 3
-hitSize: 5
+hitSize: 8
 flying: true
 faceTarget: false
 createWreck: false
@@ -29,9 +29,9 @@ weapons: [
       hitSound: explosion
       speed: 0
       splashDamageRadius: 80
+      splashDamage: 80
 
       instantDisappear: true
-      splashDamage: 80
       killShooter: true
       hittable: false
       collidesAir: true
