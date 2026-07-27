@@ -21,7 +21,7 @@ weapons: [
     bullet: {
       type: basicBulletType
       despawnEffect: sapExplosion
-      hitStatus: sapped
+      status: sapped
       statusDuration: 120
       collidesTiles: false
       collides: false
