@@ -12,7 +12,7 @@ faceTarget: false
 weapons: [
   {
     shootCone: 180
-    shootEffect: flakExplosion
+    shootEffect: flakExplosionBig
     shootSound: explosionDull
     mirror: false
     reload: 40
