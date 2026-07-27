@@ -28,7 +28,7 @@ weapons: [
       collides: false
       hitSound: explosion
       speed: 0
-      splashDamageRadius: 45
+      splashDamageRadius: 35
       splashDamage: 80
 
       instantDisappear: true
