@@ -1,6 +1,6 @@
 type: flying
 name: Anax
-description: Emits an explosive pulse which slows enemy units.
+description: Emits an explosive pulse which saps enemy units.
 drag: 0.08
 accel: 0.09
 health: 480
@@ -17,13 +17,15 @@ weapons: [
     reload: 30
     bullet: {
       type: basicBulletType
-      despawnEffect: flakExplosionBig
+      despawnEffect: sapExplosion
+      hitStatus: sapped
+      statusDuration: 120
       collidesTiles: false
       collides: false
       hitSound: none
       speed: 0
       splashDamageRadius: 80
-      splashDamage: 80
+      splashDamage: 35
 
       instantDisappear: true
       hittable: false
