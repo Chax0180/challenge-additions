@@ -9,6 +9,7 @@ speed: 3
 hitSize: 5
 flying: true
 faceTarget: false
+createWreck: false
 weapons: [
   {
     shootOnDeath: true
@@ -26,11 +27,11 @@ weapons: [
       collidesTiles: false
       collides: false
       hitSound: explosion
-
-      rangeOverride: 25
-      hitEffect: pulverize
+      hitEffect: 
+      despawnEffect:
       speed: 0
-      splashDamageRadius: 44
+      splashDamageRadius: 80
+
       instantDisappear: true
       splashDamage: 80
       killShooter: true
