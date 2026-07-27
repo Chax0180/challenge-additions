@@ -27,8 +27,6 @@ weapons: [
       collidesTiles: false
       collides: false
       hitSound: explosion
-      hitEffect: 
-      despawnEffect:
       speed: 0
       splashDamageRadius: 80
 
