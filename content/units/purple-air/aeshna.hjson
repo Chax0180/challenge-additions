@@ -12,10 +12,10 @@ faceTarget: false
 weapons: [
   {
     shootCone: 180
-    ejectEffect: none
+    shootEffect: flakExplosion
     shootSound: explosionDull
     mirror: false
-    reload: 120
+    reload: 40
 
     bullet: {
       type: basicBulletType
@@ -23,7 +23,6 @@ weapons: [
       collides: false
       hitSound: none
       speed: 0
-      hitEffect: flakExplosion
       splashDamageRadius: 80
       splashDamage: 80
 
