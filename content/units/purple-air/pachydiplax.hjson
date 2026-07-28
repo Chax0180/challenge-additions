@@ -1,6 +1,5 @@
 type: flying
 name: Pachydiplax
-lowAltitude: true
 description: Fires a spray of homing missiles at enemy targets. Possesses two automatic sapping laser beam turrets that repair itself.
 drag: 0.08
 accel: 0.09
@@ -63,7 +62,7 @@ weapons:[
     
     autoTarget: true
     x: 16
-    y: -12
+    y: -6
     reload: 15
     mirror: true
     shootSound: shootSap
