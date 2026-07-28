@@ -1,6 +1,0 @@
-name: additive-reconstructor
-$patch: true
-
-upgrades: [
-  [anax, aeshna]
-]
