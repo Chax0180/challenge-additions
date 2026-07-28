@@ -7,7 +7,7 @@ accel: 0.09
 health: 1000
 armor: 2
 speed: 2.5
-hitSize: 20
+hitSize: 16
 flying: true
 faceTarget: true
 research: aeshna
@@ -38,7 +38,7 @@ weapons:[
       height: 13
       speed: 4
       lifetime: 75
-      damage: 60
+      damage: 28
       pierce: true
       pierceCap: 3
       trailChance: -1
