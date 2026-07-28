@@ -31,7 +31,7 @@ weapons: [
       despawnEffect: reactorExplosion
       speed: 0
       splashDamageRadius: 120
-      splashDamage: 9000
+      splashDamage: 35000
 
       instantDisappear: true
       killShooter: true
