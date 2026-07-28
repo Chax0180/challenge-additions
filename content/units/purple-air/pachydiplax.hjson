@@ -24,7 +24,7 @@ weapons:[
     reload: 15
     mirror: true
     shootSound: shootMissilePlasmaShort
-    inaccuracy: 50
+    inaccuracy: 5
     shootStatus: slow
     shoot: {
       type: ShootAlternate
