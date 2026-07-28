@@ -68,6 +68,7 @@ weapons:[
     shootSound: shootSap
     inaccuracy: 1
     top: false
+    layerOffset: -2
     bullet: {
     type: SapBulletType
     shootEffect: shootBig
