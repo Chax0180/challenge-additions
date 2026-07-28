@@ -38,7 +38,8 @@ weapons:[
       height: 13
       speed: 4
       lifetime: 75
-      damage: 28
+      damage: 32
+      buildingDamageMultiplier: 0.8
       pierce: true
       pierceCap: 3
       trailChance: -1
