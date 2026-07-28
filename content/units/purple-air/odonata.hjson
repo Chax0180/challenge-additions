@@ -1,0 +1,41 @@
+
+type: flying
+name: Odonata
+description: Flies toward enemy targets and self-destructs, causing a massive explosion. Note: Sprite is a placeholder.
+drag: 0.08
+accel: 0.09
+health: 23000
+armor: 13
+speed: 1.5
+hitSize: 24
+flying: true
+faceTarget: false
+createWreck: false
+weapons: [
+  {
+    shootOnDeath: true
+    targetUnderBlocks: false
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosionReactor
+    x: 0
+    y: 0
+    mirror: false
+
+    bullet: {
+      type: basicBulletType
+      collidesTiles: false
+      collides: false
+      hitSound: explosionReactor2
+      speed: 0
+      splashDamageRadius: 120
+      splashDamage: 9000
+
+      instantDisappear: true
+      killShooter: true
+      hittable: false
+      collidesAir: true
+    }
+  }
+]
