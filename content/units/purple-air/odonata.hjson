@@ -31,7 +31,7 @@ weapons: [
       hitSound: explosionReactor2
       despawnEffect: reactorExplosion
       speed: 0
-      splashDamageRadius: 320
+      splashDamageRadius: 200
       splashDamage: 18000
 
       instantDisappear: true
