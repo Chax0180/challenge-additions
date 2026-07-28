@@ -1,0 +1,84 @@
+type: flying
+name: Pachydiplax
+lowAltitude: true
+description: Fires a spray of homing missiles at enemy targets. Possesses two automatic sapping laser beam turrets that repair itself.
+drag: 0.08
+accel: 0.09
+health: 7600
+armor: 9
+speed: 1.75
+hitSize: 32
+flying: true
+faceTarget: true
+weapons:[
+{
+    name: purple-swarmer
+    rotate: true
+    rotateSpeed: 1
+    shootCone: 50
+    x: 0
+    y: -5
+    reload: 15
+    mirror: false
+    shootSound: missile
+    inaccuracy: 50
+    shootStatus: slow
+    shoot: {
+      type: ShootAlternate
+      shots: 3
+      barrels: 3
+    shotDelay: 5
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.12
+      homingDelay: 15
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 4
+      lifetime: 75
+      damage: 32
+      pierce: true
+      pierceCap: 3
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      hitSound: explosion
+      despawnSound: explosion
+      frontColor: bf92f9
+        knockback: 0.25
+    }
+    }
+    {
+    name: heavy-sapper-mount
+    controllable: false
+    rotate: true
+     rotateSpeed: 1
+    
+    autoTarget: true
+    x: 16
+    y: -12
+    reload: 15
+    mirror: true
+    shootSound: sap
+    inaccuracy: 1
+    bullet: {
+    type: SapBulletType
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
+    length: 200
+    color: bf92f9
+    width: 1.5
+    sapStrength: 0.5
+    damage: 80
+    }
+    }
+]
+engineOffset: 14
+engineSize: 4.3
