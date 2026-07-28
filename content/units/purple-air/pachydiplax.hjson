@@ -61,10 +61,11 @@ weapons:[
      rotateSpeed: 1
     
     autoTarget: true
-    x: 16
-    y: -6
+    x: 14
+    y: 0
     reload: 15
     mirror: true
+    under: true
     shootSound: shootSap
     inaccuracy: 1
     bullet: {
