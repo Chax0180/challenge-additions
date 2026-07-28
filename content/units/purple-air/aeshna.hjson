@@ -6,11 +6,12 @@ accel: 0.09
 health: 480
 armor: 4
 speed: 2
-hitSize: 10
+hitSize: 12
 flying: true
 faceTarget: false
 research: anax
 range: 80
+autoDropBombs: true
 weapons: [
   {
     shootCone: 180
