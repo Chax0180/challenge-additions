@@ -20,7 +20,7 @@ weapons:[
     y: -5
     reload: 15
     mirror: false
-    shootSound: missile
+    shootSound: shootMissilePlasmaShort
     inaccuracy: 50
     shootStatus: slow
     shoot: {
@@ -66,7 +66,7 @@ weapons:[
     y: -12
     reload: 15
     mirror: true
-    shootSound: sap
+    shootSound: shootSap
     inaccuracy: 1
     bullet: {
     type: SapBulletType
