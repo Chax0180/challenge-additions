@@ -18,6 +18,7 @@ weapons:[
     x: 8
     y: 9
     baseRotation: -45
+    rotationLimit: 10
     top: false
     layerOffset: -2
     reload: 15
