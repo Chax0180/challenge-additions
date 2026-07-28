@@ -4,9 +4,9 @@ name: Odonata
 description: Flies toward enemy targets and self-destructs, causing a massive explosion. Note: Sprite is a placeholder.
 drag: 0.08
 accel: 0.09
-health: 23000
+health: 20000
 armor: 13
-speed: 1.5
+speed: 0.8
 hitSize: 24
 flying: true
 faceTarget: false
