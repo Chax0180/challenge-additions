@@ -41,7 +41,7 @@ weapons:[
       width: 9
       height: 13
       speed: 4
-      lifetime: 75
+      lifetime: 85
       damage: 48
       buildingDamageMultiplier: 0.7
       pierce: true
