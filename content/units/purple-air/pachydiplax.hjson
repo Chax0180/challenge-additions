@@ -19,7 +19,6 @@ weapons:[
     y: 9
     baseRotation: -45
     rotationLimit: 10
-    top: false
     layerOffset: -2
     useAttackRange: true
     reload: 15
@@ -73,7 +72,6 @@ weapons:[
     mirror: true
     shootSound: shootSap
     inaccuracy: 1
-    top: false
     layerOffset: -2
     bullet: {
     type: SapBulletType
