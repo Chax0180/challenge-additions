@@ -10,6 +10,7 @@ speed: 2.5
 hitSize: 20
 flying: true
 faceTarget: true
+research: aeshna
 weapons:[
 {
     name: purple-missiles
