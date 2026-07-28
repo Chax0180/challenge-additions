@@ -28,6 +28,7 @@ weapons: [
       collidesTiles: false
       collides: false
       hitSound: explosionReactor2
+      despawnEffect: reactorExplosion
       speed: 0
       splashDamageRadius: 120
       splashDamage: 9000
