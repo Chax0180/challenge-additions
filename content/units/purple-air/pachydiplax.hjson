@@ -77,6 +77,8 @@ weapons:[
     layerOffset: -2
     bullet: {
     type: SapBulletType
+    status: sapped
+    statusDuration: 120
     shootEffect: shootBig
     shootSmoke: ShootBigSmoke
     length: 200
