@@ -65,9 +65,9 @@ weapons:[
     y: 0
     reload: 15
     mirror: true
-    under: true
     shootSound: shootSap
     inaccuracy: 1
+    top: false
     bullet: {
     type: SapBulletType
     shootEffect: shootBig
