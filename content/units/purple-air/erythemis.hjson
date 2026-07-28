@@ -7,7 +7,7 @@ accel: 0.09
 health: 1000
 armor: 2
 speed: 2.5
-hitSize: 12
+hitSize: 30
 flying: true
 faceTarget: true
 weapons:[
