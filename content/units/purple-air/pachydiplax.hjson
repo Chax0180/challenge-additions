@@ -15,9 +15,9 @@ weapons:[
     rotate: true
     rotateSpeed: 1
     shootCone: 50
-    x: 5
-    y: -5
-    baseRotation: 45
+    x: 6
+    y: 8
+    baseRotation: -45
     reload: 15
     mirror: true
     shootSound: shootMissilePlasmaShort
