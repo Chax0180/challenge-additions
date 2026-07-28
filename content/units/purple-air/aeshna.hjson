@@ -10,6 +10,7 @@ hitSize: 10
 flying: true
 faceTarget: false
 research: anax
+range: 80
 weapons: [
   {
     shootCone: 180
