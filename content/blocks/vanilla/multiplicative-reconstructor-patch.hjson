@@ -1,6 +1,0 @@
-name: multiplicative-reconstructor
-$patch: true
-
-upgrades: [
-  [aeshna, erythemis]
-]
