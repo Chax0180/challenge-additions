@@ -15,12 +15,13 @@ weapons:[
     rotate: true
     rotateSpeed: 1
     shootCone: 50
-    x: 8
+    x: 9
     y: 9
     baseRotation: -45
     rotationLimit: 10
     top: false
     layerOffset: -2
+    useAttackRange: true
     reload: 15
     mirror: true
     shootSound: shootMissilePlasmaShort
