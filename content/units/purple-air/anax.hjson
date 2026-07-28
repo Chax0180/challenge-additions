@@ -6,7 +6,7 @@ accel: 0.09
 health: 110
 armor: 1
 speed: 3
-hitSize: 8
+hitSize: 9
 flying: true
 faceTarget: false
 createWreck: false
