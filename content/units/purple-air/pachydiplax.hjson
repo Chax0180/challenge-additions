@@ -44,7 +44,7 @@ weapons:[
       speed: 4
       lifetime: 85
       damage: 48
-      buildingDamageMultiplier: 0.7
+      buildingDamageMultiplier: 0.8
       pierce: true
       pierceCap: 3
       trailChance: -1
