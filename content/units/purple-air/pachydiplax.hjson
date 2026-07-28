@@ -11,14 +11,14 @@ flying: true
 faceTarget: true
 weapons:[
 {
-    name: purple-swarmer
+    name: purple-missiles
     rotate: true
     rotateSpeed: 1
     shootCone: 50
-    x: 0
+    x: 5
     y: -5
     reload: 15
-    mirror: false
+    mirror: true
     shootSound: shootMissilePlasmaShort
     inaccuracy: 50
     shootStatus: slow
