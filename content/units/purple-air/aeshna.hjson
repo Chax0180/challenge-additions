@@ -6,7 +6,7 @@ accel: 0.09
 health: 480
 armor: 4
 speed: 2
-hitSize: 16
+hitSize: 10
 flying: true
 faceTarget: false
 research: anax
