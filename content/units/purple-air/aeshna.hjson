@@ -9,6 +9,7 @@ speed: 2
 hitSize: 16
 flying: true
 faceTarget: false
+research: anax
 weapons: [
   {
     shootCone: 180
