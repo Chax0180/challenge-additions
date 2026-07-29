@@ -24,7 +24,7 @@ weapons: [
     firstShotDelay: 110
     }
     chargeSound: chargeCorvus
-    chargeEffect: {
+    smokeEffect:{
     type: ParticleEffect
     particles: 80
     lifetime: 120
@@ -35,7 +35,7 @@ weapons: [
     colorFrom: 665c9f
     colorTo: bf92f9
     sizeInterp: smooth
-  }
+    }
     ejectEffect: none
     shootSound: explosionReactor
     x: 0
