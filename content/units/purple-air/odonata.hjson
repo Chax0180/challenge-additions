@@ -51,8 +51,8 @@ weapons: [
     sizeTo: 60
     cone: 180
     length: -280
-    colorFrom: 665c9f
-    colorTo: bf92f9
+    colorFrom: 665c9f00
+    colorTo: ffffff
     interp: reverse
     sizeInterp: smooth
     }
