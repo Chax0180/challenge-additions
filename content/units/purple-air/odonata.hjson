@@ -18,6 +18,8 @@ parts: [
     type: RegionPart
     suffix: -glow
     progress: warmup
+    colorFrom: ff551200
+    colorTo: ff5512
     blending: additive
     outline: false
   }
