@@ -12,6 +12,8 @@ hitSize: 66
 flying: true
 faceTarget: false
 createWreck: false
+engineOffset: 20
+engineSize: 6
 weapons: [
   {
     shootOnDeath: true
@@ -43,8 +45,7 @@ weapons: [
 abilities:[
 {
 type: SuppressionFieldAbility
-y: -5
-orbRadius: 8
-particleSize: 8
+y: -6
+orbRadius: 6
 }
 ]
