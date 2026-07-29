@@ -12,8 +12,8 @@ hitSize: 66
 flying: true
 faceTarget: false
 createWreck: false
-engineOffset: 40
-engineSize: 7
+engineOffset: 35
+engineSize: 8
 weapons: [
   {
     shootOnDeath: true
