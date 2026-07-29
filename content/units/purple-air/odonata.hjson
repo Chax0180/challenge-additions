@@ -13,18 +13,7 @@ createWreck: false
 flying: true
 engineOffset: 35
 engineSize: 8
-weapons: [
-  {
-    shootOnDeath: true
-    targetUnderBlocks: false
-    shootStatus: unmoving
-    reload: 24
-    shootCone: 180
-    shoot: {
-    firstShotDelay: 110
-    }
-    chargeSound: chargeCorvus
-    smokeEffect:{
+    chargeEffect:{
     type: ParticleEffect
     particles: 80
     lifetime: 120
@@ -36,6 +25,17 @@ weapons: [
     colorTo: bf92f9
     sizeInterp: smooth
     }
+weapons: [
+  {
+    shootOnDeath: true
+    targetUnderBlocks: false
+    shootStatus: unmoving
+    reload: 24
+    shootCone: 180
+    shoot: {
+    firstShotDelay: 110
+    }
+    chargeSound: chargeCorvus
     ejectEffect: none
     shootSound: explosionReactor
     x: 0
