@@ -52,7 +52,6 @@ parts: [
       hittable: false
       collidesAir: true
     }
-]
   }
 ]
 abilities:[
