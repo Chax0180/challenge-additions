@@ -25,6 +25,17 @@ weapons: [
     chargeSound: chargeCorvus
     ejectEffect: none
     shootSound: explosionReactor
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    progress: warmup
+    color: 84f491
+    colorTo: [1, 1, 1, 0]
+    blending: additive
+    outline: false
+  }
+]
     x: 0
     y: 0
     mirror: false
@@ -43,6 +54,7 @@ weapons: [
       hittable: false
       collidesAir: true
     }
+]
   }
 ]
 abilities:[
