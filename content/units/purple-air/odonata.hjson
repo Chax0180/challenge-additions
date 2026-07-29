@@ -13,27 +13,29 @@ createWreck: false
 flying: true
 engineOffset: 35
 engineSize: 8
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    progress: warmup
-    colorFrom: ff551200
-    colorTo: ff5512
-    blending: additive
-    outline: false
-  }
-]
 weapons: [
   {
     shootOnDeath: true
     targetUnderBlocks: false
+    shootStatus: unmoving
     reload: 24
     shootCone: 180
     shoot: {
-    firstShotDelay: 120
+    firstShotDelay: 110
     }
     chargeSound: chargeCorvus
+    chargeEffect: {
+    type: ParticleEffect
+    particles: 80
+    lifetime: 120
+    sizeFrom: 60
+    sizeTo: 0
+    cone: 180
+    length: -400
+    colorFrom: 665c9f
+    colorTo: bf92f9
+    sizeInterp: smooth
+  }
     ejectEffect: none
     shootSound: explosionReactor
     x: 0
