@@ -47,12 +47,13 @@ weapons: [
     type: ParticleEffect
     particles: 80
     lifetime: 120
-    sizeFrom: 60
-    sizeTo: 0
+    sizeFrom: 0
+    sizeTo: 60
     cone: 180
     length: -280
     colorFrom: 665c9f
     colorTo: bf92f9
+    interp: reverse
     sizeInterp: smooth
     }
     }
