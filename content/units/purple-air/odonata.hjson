@@ -30,8 +30,6 @@ parts: [
     type: RegionPart
     suffix: -glow
     progress: warmup
-    color: 84f491
-    colorTo: [1, 1, 1, 0]
     blending: additive
     outline: false
   }
