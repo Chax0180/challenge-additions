@@ -8,7 +8,6 @@ armor: 13
 speed: 0.4
 rotateSpeed: 1
 hitSize: 66
-flying: true
 faceTarget: false
 createWreck: false
 hovering: true
