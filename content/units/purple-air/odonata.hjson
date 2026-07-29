@@ -13,6 +13,15 @@ createWreck: false
 flying: true
 engineOffset: 35
 engineSize: 8
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    progress: warmup
+    blending: additive
+    outline: false
+  }
+]
 weapons: [
   {
     shootOnDeath: true
@@ -25,15 +34,6 @@ weapons: [
     chargeSound: chargeCorvus
     ejectEffect: none
     shootSound: explosionReactor
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    progress: warmup
-    blending: additive
-    outline: false
-  }
-]
     x: 0
     y: 0
     mirror: false
