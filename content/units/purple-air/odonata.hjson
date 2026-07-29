@@ -19,6 +19,8 @@ weapons: [
     targetUnderBlocks: false
     reload: 24
     shootCone: 180
+    shoot:[
+    ]
     ejectEffect: none
     shootSound: explosionReactor
     x: 0
