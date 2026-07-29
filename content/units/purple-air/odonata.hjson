@@ -19,8 +19,10 @@ weapons: [
     targetUnderBlocks: false
     reload: 24
     shootCone: 180
-    shoot:[
-    ]
+    shoot: {
+    firstShotDelay: 120
+    }
+    chargeSound: chargeCorvus
     ejectEffect: none
     shootSound: explosionReactor
     x: 0
