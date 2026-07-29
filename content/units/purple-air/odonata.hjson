@@ -13,6 +13,7 @@ createWreck: false
 flying: true
 engineOffset: 35
 engineSize: 8
+deathSound: explosionReactor2
 weapons: [
   {
     shootOnDeath: true
@@ -33,7 +34,6 @@ weapons: [
       type: basicBulletType
       collidesTiles: false
       collides: false
-      hitSound: explosionReactor2
       despawnEffect: reactorExplosion
       speed: 0
       splashDamageRadius: 200
@@ -48,7 +48,7 @@ weapons: [
     particles: 80
     lifetime: 110
     sizeFrom: 0
-    sizeTo: 40
+    sizeTo: 20
     cone: 180
     length: -280
     colorFrom: bf92f9
