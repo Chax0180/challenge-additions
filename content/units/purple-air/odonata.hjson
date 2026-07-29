@@ -1,4 +1,4 @@
-type: mech
+type: flying
 name: Odonata
 description: Flies toward enemy targets and self-destructs, causing a massive explosion. Supresses enemy repair structures.
 drag: 0.08
@@ -10,7 +10,7 @@ rotateSpeed: 1
 hitSize: 66
 faceTarget: false
 createWreck: false
-hovering: true
+flying: true
 engineOffset: 35
 engineSize: 8
 weapons: [
