@@ -7,19 +7,19 @@ silicon/15
     time: 900
   }
   {
-    unit: anax
-    requirements: [
-silicon/20
-coal/10
-    ]
-    time: 600
-  }
-  {
     unit: mono
     requirements: [
 silicon/30
 lead/50
     ]
     time: 2100
+  }
+  {
+    unit: anax
+    requirements: [
+silicon/20
+coal/10
+    ]
+    time: 600
   }
 ]
