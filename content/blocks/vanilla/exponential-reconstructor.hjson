@@ -1,0 +1,11 @@
+name: additive-reconstructor
+upgrades: [
+  [dagger,mace]
+  [nova,pulsar]
+  [crawler,atrax]
+  [flare,horizon]
+  [mono,poly]
+  [anax,aeshna]
+  [risso,minke]
+  [retusa,oxynoe]
+]
