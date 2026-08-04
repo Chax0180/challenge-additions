@@ -1,4 +1,3 @@
-name: multiplicative-reconstructor
 upgrades: [
   [mace,fortress]
   [pulsar,quasar]
