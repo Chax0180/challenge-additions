@@ -1,4 +1,3 @@
-name: additive-reconstructor
 upgrades: [
   [dagger,mace]
   [nova,pulsar]
