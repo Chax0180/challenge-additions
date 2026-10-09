@@ -14,6 +14,7 @@ flying: true
 engineOffset: 35
 engineSize: 8
 deathSound: explosionReactor2
+research: pachydiplax
 weapons: [
   {
     shootOnDeath: true
