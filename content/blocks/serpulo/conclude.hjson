@@ -23,15 +23,7 @@ canOverdrive: false
 playerControllable: false
   predictTarget: false
 
-research: {
-  parent: segment
-  objectives: [
-    {
-      type: SectorComplete
-      preset: testingGrounds
-    }
-  ]
-}
+research: segment
 
 reload: 600
 recoil: 0
