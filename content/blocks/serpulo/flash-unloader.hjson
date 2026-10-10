@@ -9,6 +9,6 @@ requirements: [
   surge-alloy/25
   silicon/100
 ]
-speed: 2
+speed: 1.5
 underBullets: true
 regionRotated1: 1
